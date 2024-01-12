@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial HTML</title>
+    <link rel="icon" href="https://www.w3schools.com/favicon.co" />
+
+    <link rel="stylesheet" href="../../css/style.css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Google Font Family poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+
+    <!--Google font Family source sans pro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Google font family freckle face-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="#" class="menu-btn">
+                <div class="akademicoding-logo">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1088px-W3Schools_logo.svg.png" />
+                </div>
+            </a>
+            <div href="#Tutorial" class="menu-btn " id="Tutorial-btn">
+                Panduan
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div href="#references" class="menu-btn " id="references-btn">
+                Rujukan
+                <i class="fa-solid fa-caret-down "></i>
+            </div>
+            <div href="#exercises" class="menu-btn " id="exercises-btn">
+                Latihan
+                <i class="fa-solid fa-caret-down" class="menu-btn"></i>
+            </div>
+            <a href="https://www.w3schools.com/videos/index.php" class="menu-btn" id="video-btn">
+                Video
+            </a>
+
+            <!--mobile view menu-->
+            <div class="menu-btn" id="Menu-btn-Mobile">
+                Menu
+                <i class="fa-solid fa-caret-down" class="menu-btn"></i>
+            </div>
+        </div>
+        <div class="header-right">
+            
+            <a href="https://www.w3schools.com/pro/index.php" class="btn btn-link bg-black" id="upgrade-btn">
+                Naik Taraf
+            </a>
+            <a href="https://campus.w3schools.com/collections/certifications" class="btn btn-link bg-pink"
+                id="getCertified">
+                Dapatkan Sijil
+            </a>
+            <a href="https://www.w3schools.com/spaces/index.php" class="btn btn-link bg-yellow" id="freeWebsite">
+                Laman Web Percuma
+            </a>
+            <a href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com"
+                class="btn btn-link bg-green" id="login-btn">
+                Log Masuk
+            </a>
+        </div>
+    </header>
+
+    <!--mobile menu bar-->
+    <div class="mobile-menu-container" id="mobile-menu-nav">
+        <div class="mobile-menu-close-btn">
+            <a href="" id="mobile-Nav-close"><button><i class="fa-solid fa-xmark"></i></button></a>
+        </div>
+        <ul>
+            <div  class="menu-btn-mobile_menu " id="tutorial_menuLink_mobile">
+                Panduan
+                <i class="fa-solid fa-caret-down"></i>
+
+                <div class="nested-navigation-container_content_Mobile mobile_menuActive_tutorial"
+                    id="Tutorial_menu_mobile">
+                    <h1>Panduan</h1>
+                    <h2>html css</h2>
+                    <a href="#">random</a>
+
+                </div>
+            </div>
+            <div  class="menu-btn-mobile_menu " id="references_menuLink_mobile">
+                Rujukan
+                <i class="fa-solid fa-caret-down "></i>
+                <div class="nested-navigation-container_content_Mobile mobile_menuActive_tutorial"
+                    id="references_menu_mobile">
+                    <h1>Panduan</h1>
+                    <h2>html css</h2>
+                    <a href="#">random</a>
+
+                </div>
+            </div>
+            <div  class="menu-btn-mobile_menu " id="exercises_menuLink_mobile">
+                Latihan
+                <i class="fa-solid fa-caret-down"></i>
+                <div class="nested-navigation-container_content_Mobile mobile_menuActive_tutorial"
+                    id="exercises_menu_mobile">
+                    <h1>Panduan</h1>
+                    <h2>html css</h2>
+                    <a href="#">random</a>
+
+                </div>
+            </div>
+            <a href="https://campus.w3schools.com/collections/certifications" class="menu-btn-mobile_menu ">
+                Dapatkan Sijil
+            </a>
+            <a href="https://www.w3schools.com/pro/index.php" class="menu-btn-mobile_menu ">
+                Naik Taraf
+            </a>
+            <a href="https://www.w3schools.com/spaces/index.php" class="menu-btn-mobile_menu ">
+                Spaces
+            </a>
+            <a href="https://www.w3schools.com/videos/index.php" class="menu-btn-mobile_menu">
+                Video
+            </a>
+            <a href="https://campus.w3schools.com/collections/course-catalog" class="menu-btn-mobile_menu">
+                Kedai
+            </a>
+        </ul>
+    </div>
+
+    <!--nested navigation bar-->
+    <div class="nested-navigation-container nested_navigation_hidden" id="nested-navigation-container_id">
+        <div class="nested-navigation_container_close-btn" id="nested-navigation-close-Btn">
+            <button><i class="fa-solid fa-xmark" class="menu-btn"></i></button>
+        </div>
+
+        <div class="nested-navigation-container_content" id="nested-navigation-container-contentID">
+            <!--render all the menu here-->
+        </div>
+    </div>
+
+
+    <!-----Horizontal navbar----->
+    <div class="horizontal_wrapper">
+        <div class="horizontal_Nav_left">
+                <div class="horizontalNav_Btn" id="openSidebarMenuID">
+                    <a href="/index.html"><i class="fa-solid fa-house-chimney"></i></a>
+                </div>
+                <a href="#" class="horizontal_Nav_item">HTML</a>
+                <a href="#" class="horizontal_Nav_item">CSS</a>
+                <a href="#" class="horizontal_Nav_item">javascript</a>
+                <a href="#" class="horizontal_Nav_item">SQL</a>
+                <a href="#" class="horizontal_Nav_item">python</a>
+                <a href="#" class="horizontal_Nav_item">java</a>
+                <a href="#" class="horizontal_Nav_item">php</a>
+                <a href="#" class="horizontal_Nav_item">Bootstrap</a>
+                <a href="#" class="horizontal_Nav_item">how to</a>
+                <a href="#" class="horizontal_Nav_item">w3.css</a>
+                <a href="#" class="horizontal_Nav_item">C</a>
+                <a href="#" class="horizontal_Nav_item">C++</a>
+            
+        </div>
+        <div class="horizontal_Nav_right">
+            <div class="toggleLightDark btn">
+                <i class="fa-solid fa-circle-half-stroke"></i>
+            </div>
+            <div class="toggleTranslate">
+                <i class="fa-solid fa-earth-europe"></i>
+            </div>
+            <div class="toggle_Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- section body html tutorial -->
+    <div class="wrapper_body_html">
+        <aside class="wrapper-body_left" id="sidebarNavigationHTMLID">
+            <div class="wrapper-body_left_heading">HTML Tutorial</div>
+            <a href="./subNav/home.html" class="horizontal_menu_item_aside" target="displayContent">Laman Utama HTML</a>
+            <a href="./subNav/intoduction.html" class="horizontal_menu_item_aside" target="displayContent">Pendahuluan HTML</a>
+            <a href="./subNav/editors.html" class="horizontal_menu_item_aside" target="displayContent">Editor HTML</a>
+            <a href="./subNav/basics.html" class="horizontal_menu_item_aside" target="displayContent">Asas HTML</a>
+            <a href="./subNav/elements.html" class="horizontal_menu_item_aside" target="displayContent">Elemen HTML</a>
+            <a href="./subNav/attributes.html" class="horizontal_menu_item_aside" target="displayContent">Attribut HTML</a>
+            <a href="./subNav/Headings.html" class="horizontal_menu_item_aside" target="displayContent">Tajuk HTML</a>
+            <a href="./subNav/paragraphs.html" class="horizontal_menu_item_aside" target="displayContent">Perenggan HTML</a>
+            <a href="./subNav/styles.html" class="horizontal_menu_item_aside" target="displayContent">Stail HTML</a>
+            <a href="./subNav/formatting.html" class="horizontal_menu_item_aside" target="displayContent">Pemformatan HTML</a>
+            <a href="./subNav/quotations.html" class="horizontal_menu_item_aside" target="displayContent">Petikan HTML</a>
+            <a href="./subNav/comments.html" class="horizontal_menu_item_aside" target="displayContent">Ulasan HTML</a>
+            <a href="./subNav/colors.html" class="horizontal_menu_item_aside" target="displayContent">Warna HTML</a>
+            <a href="./subNav/css.html" class="horizontal_menu_item_aside" target="displayContent">HTML CSS</a>
+            <a href="./subNav/links.html" class="horizontal_menu_item_aside" target="displayContent">Pautan HTML</a>
+            <a href="./subNav/image.html" class="horizontal_menu_item_aside" target="displayContent">Imej HTML</a>
+            <a href="./subNav/favicon.html" class="horizontal_menu_item_aside" target="displayContent">HTML Favicon</a>
+            <a href="./subNav/tables.html" class="horizontal_menu_item_aside" target="displayContent">Jadual HTML</a>
+            <a href="./subNav/lists.html" class="horizontal_menu_item_aside" target="displayContent">Senarai HTML</a>
+            <a href="./subNav/blockandInline.html" class="horizontal_menu_item_aside" target="displayContent">HTML Blok & Baris</a>
+        </aside>
+        <section class="wrapper-body_right">
+            <iframe src="./subNav/home.html" name="displayContent" class="iframe_Content_Display">
+
+            </iframe>
+            
+        </section>
+    </div>
+
+
+    <script src="../../js/topHeader.js" type="module"></script>
+
+
+    <script>
+        let sidebar = document.getElementById("sidebarNavigationHTMLID")
+        let openSidebarMenu = document.getElementById("openSidebarMenuID")
+        let open = false;
+
+        openSidebarMenu.addEventListener("click",()=>{
+            open = !open
+            if(open){
+                sidebar.classList.add("sidebarDisplay")
+            }
+            else{
+                sidebar.classList.remove("sidebarDisplay")   
+            }
+        })
+
+    </script>
+</body>
+</html>
